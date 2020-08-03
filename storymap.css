@@ -1,0 +1,36 @@
+#map {
+position: fixed;
+width: 100%;
+}
+
+#features {
+width: 30%;
+margin-left: 70%;
+font-family: sans-serif;
+overflow-y: scroll;
+background-color: #fafafa;
+opacity: 0.75;
+top:5vw;
+background-color: #fafafa;
+padding:20px;
+position:absolute;
+border-radius:25px;
+margin-left: 70%;
+}
+
+section {
+padding: 25px 50px;
+line-height: 25px;
+border-bottom: 1px solid #ddd;
+opacity: 0.25;
+font-size: 13px;
+}
+
+section.active {
+opacity: 1;
+}
+
+section:last-child {
+border-bottom: none;
+margin-bottom: 200px;
+}
